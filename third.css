@@ -1,0 +1,130 @@
+@import url(menu.css);
+@import url(sidebar.css);
+@import url(header.css);
+@import url(footer.css);
+@import url(content.css);
+
+body{
+    margin:auto;
+    max-width: 1440px;
+}
+
+.container {
+    box-sizing: border-box;
+    width: 1440px;
+    background-color: white;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.sitro {
+    color: #ffffff;
+    text-align: center;
+    font: 900 96px "Inter-Black", sans-serif;
+    position: absolute;
+    left: 0px;
+    top: 43px;
+    width: 720px;
+    height: 48px;
+}
+.menu-t1, .menu-t2, .menu-t3  {
+    color: #000000;
+    text-align: center;
+    font: 500 24px "Inter-Medium", sans-serif;
+    position: relative;
+    top: 50px;
+    width: 245px;
+    height: 51px;
+    flex: 1;
+}
+
+.sitro_logo {
+    z-index: 3;
+    color: #000000;
+    text-align: right;
+    font: 500 30px "Inter-Medium", sans-serif;
+    position: relative;
+    left: 300px;
+    width: 658px;
+    height: 56px;
+}
+
+.sitro_history{
+    z-index: 3;
+    text-align: left;
+    font: 400 30px "-", sans-serif;
+    width: 926px;
+    height: 406px;
+    position: relative;
+}
+
+.sitro_ideas {
+    color: #000000;
+    text-align: left;
+    font: 400 30px "-", sans-serif;
+    position: relative;
+    width: 914px;
+    height: 170px;
+}
+
+
+.sit-ro {
+    top:20px;
+    font: 400 26px "Adamina-Regular", sans-serif;
+}
+
+.sit-ro-span {
+    color: #000000;
+    font: 400 26px "Adamina-Regular", sans-serif;
+}
+
+.sit-ro-span2 {
+    color: #ffffff;
+    font: 400 26px "Adamina-Regular", sans-serif;
+}
+
+.ul-cont{
+    list-style-type: none;
+    padding: 0px;
+    left: 100px;
+    text-align: left;
+    font: 400 14px/24px "Roboto-Regular", sans-serif;
+    position: relative;
+}
+
+.contact, .sit-ro {
+    position: relative;
+    text-align: center;
+    top: 20px;
+    left: 40px;
+    width: 120px;
+    height: 51px;
+    flex: 1;
+    float: left;
+    clear: both;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+.el, .num{
+    color: rgba(37, 35, 35, 0.6);
+}
+.addr {
+    color: #252323;
+}
+
+.asort{
+    color: #ffffff;
+    text-align: center;
+    font: 400 30px "-", sans-serif;
+    position: relative;
+    width: 447px;
+    height: 542px;
+}
+
+.ul-asort{
+    color: #ffffff;
+    font: 500 30px "Inter-Medium", sans-serif;
+}

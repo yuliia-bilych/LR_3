@@ -1,0 +1,9 @@
+.menu{
+    display: flex;
+    background: rgba(40, 53, 102, 0.4);
+    float: right;
+    clear: both;
+    width: 720px;
+    height: 135px;
+    position: relative;
+}
